@@ -30,5 +30,5 @@ make all-target-libgcc -j5
 make install-gcc
 make install-target-libgcc
 rm -rf $HOME/osdev
+echo 'export PATH="$HOME/opt/cross/bin:$PATH"' >> .bashrc
 echo 'Done!'
-
